@@ -1,0 +1,328 @@
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.lora-font {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabin-title {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body {
+  max-width: 1440px;
+}
+
+* {
+  margin: 0px;
+}
+
+.container {
+  padding: 16px 100px;
+  display: flex;
+  align-items: center;
+  background: #fdfbf7;
+}
+
+.logo {
+  color: #000;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-left: 120px;
+}
+
+.nav-center > p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-button {
+  border-radius: 9999px;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 15px 14px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 24px;
+}
+
+.reserve-button {
+  padding: 12px 20px;
+  border-radius: 32px;
+  background: #fbc04e;
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-items: center;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav-title {
+  background: #fbc04e;
+  padding: 9px 0px;
+  text-align: center;
+}
+
+.nav-title > p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-title > p > span {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+/* hero section */
+
+.hero {
+  background: #fdfbf7;
+  padding-top: 64px;
+  padding: 64px 100px 80px 100px;
+}
+.hero > h1 {
+  color: #010101;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92px;
+  gap: 20px;
+  padding-bottom: 64px;
+}
+
+.hero > h1 > span {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-div {
+  display: flex;
+  gap: 56px;
+}
+
+.hero-div > div {
+  padding-right: 73px;
+}
+
+.hero-div > img {
+  border-radius: 10px;
+}
+
+.hero-div-title {
+  color: #4bb924;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.hero-div-description {
+  color: #404040;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 40px;
+}
+
+.hero-button {
+  color: #000;
+  text-align: center;
+  font-family: Cabin;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 14px 28px;
+  border-radius: 32px;
+  background: #fbc04e;
+  border: none;
+}
+
+.hero-button-two {
+  color: #fa902b;
+  text-align: center;
+  font-family: Cabin;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 32px;
+  border: 1px solid #fa902b;
+  padding: 14px 28px;
+}
+
+.button-container {
+  display: flex;
+  gap: 24px;
+}
+
+.hero-last {
+  padding: 80px 0px;
+  display: flex;
+}
+
+.hero-last-div {
+  display: flex;
+  gap: 20px;
+  border-right: #969696 1px solid;
+  align-items: center;
+  margin-right: auto;
+  width: 50%;
+}
+
+.hero-last-text {
+  color: #010101;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 129.28%;
+}
+
+.hero-last-review {
+  color: #404040;
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero-last-div-two {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.hero-last-div-two > p {
+  color: #404040;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 12px;
+}
+
+/* best food */
+
+.best-food {
+  padding: 124px 100px 80px 100px;
+  display: flex;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+gap: 40px;
+}
+
+.best-food-section {
+  display: flex;
+  gap: 111px;
+}
+
+.best-food-title {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 16px 0px 64px 0px;
+}
+
+.best-food-img {
+  border-radius: 10px;
+}
+
+.best-food-secondary-title {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  padding: 24px 0px 16px 0px;
+}
+
+.best-food-description {
+  color: #6c6c6c;
+  font-family: Cabin;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about-us {
+  color: #000;
+text-align: center;
+font-family: Cabin;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+padding: 14px 28px;
+background: #fbc04e;
+border: none;
+border-radius: 32px;
+}
+
+
+.daily-offer {
+  padding: 80px 100px;
+}

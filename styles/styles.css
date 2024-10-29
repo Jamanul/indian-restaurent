@@ -36,10 +36,11 @@
 
 * {
   margin: 0px;
+  border: none;
 }
 
 .container {
-  padding: 16px 100px;
+  padding: 16px 0px;
   display: flex;
   align-items: center;
   background: #fdfbf7;
@@ -72,6 +73,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  max-width: 1240px;
+  margin: 0px auto;
 }
 
 .nav-button {
@@ -131,7 +134,9 @@
 .hero {
   background: #fdfbf7;
   padding-top: 64px;
-  padding: 64px 100px 80px 100px;
+  padding: 64px 0px 80px 0px;
+  max-width: 1240px;
+  margin: 0px auto;
 }
 .hero > h1 {
   color: #010101;
@@ -263,12 +268,14 @@
 /* best food */
 
 .best-food {
-  padding: 124px 100px 80px 100px;
+  padding: 124px 0px 80px 0px;
   display: flex;
   align-items: center;
   justify-items: center;
   flex-direction: column;
   gap: 40px;
+  margin: 0px auto;
+  max-width: 1240px;
 }
 
 .best-food-section {
@@ -330,7 +337,9 @@
 /* daily offer */
 
 .daily-offer {
-  padding: 80px 100px;
+  padding: 80px 0px;
+  max-width: 1240px;
+  margin: 0px auto;
 }
 
 .daily-offer-title {
@@ -367,7 +376,7 @@
       #111114 -4.2%,
       rgba(17, 17, 20, 0) 99.66%
     ),
-    url("./public/image 24.png");
+    url("../public/image 24.png");
   background-repeat: no-repeat;
   border-radius: 10px;
   position: relative;
@@ -442,6 +451,7 @@
   justify-content: space-between;
   gap: 32px;
   flex-grow: 1;
+
 }
 
 .menu-section {
@@ -499,9 +509,20 @@
       #111114 -4.2%,
       rgba(17, 17, 20, 0) 99.66%
     ),
-    url("./public/image 26.png");
-  padding: 84px 100px;
+    url("../public/image 26.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 84px 0px;
+ 
 }
+
+.contact-info {
+  max-width: 1240px;
+  margin: 0px auto;
+}
+
+
+
 
 .reservation-title {
   color: #fff;
@@ -511,12 +532,16 @@
   font-weight: 700;
   line-height: 60px; /* 120% */
   padding-bottom: 80px;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 .reservation-input-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
 .input-div {
@@ -575,6 +600,8 @@ background: #FBC04E;
   align-items: center;
 }
 
+/* contact */
+
 .contact-container{
   padding: 124px 0px 80px 0px;
   max-width: 1240px;
@@ -617,7 +644,7 @@ font-family: Cabin;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 133.333% */
+line-height: 24px;
 margin-left: 16px;
 }
 
@@ -627,7 +654,7 @@ font-family: Cabin;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
-line-height: 24px; /* 133.333% */
+line-height: 24px; 
 }
 .contact-time {
   color: #0B0A0B;
@@ -635,7 +662,7 @@ font-family: Cabin;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
-line-height: 24px; /* 133.333% */
+line-height: 24px; 
 margin-bottom:14px;
 }
 
@@ -650,12 +677,14 @@ font-family: Cabin;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 177.778% */
+line-height: 32px; 
 }
 
 .contact-svg >svg {
   padding: 4px;
 }
+
+/* newsletter css */
 
 .newsletter {
 max-width: 1240px;
@@ -687,7 +716,7 @@ font-family: Cabin;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 28px; /* 155.556% */
+line-height: 28px; 
 margin-bottom: 40px;
 }
 
@@ -699,18 +728,17 @@ margin-bottom: 40px;
   border-radius: 32px;
 border: 1px solid #6C6C6C;
 background: #FFF;
-padding: 16px 178px 16px 16px;
+padding: 16px 108px 16px 16px;
 
 }
 
 .newsletter-input::placeholder {
   color: #C6C6C6;
-  text-align: center;
   font-family: Cabin;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px; 
 }
 
 .newsletter-button {
@@ -721,7 +749,7 @@ font-family: Cabin;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 20px; /* 111.111% */
+line-height: 20px; 
 background: #FBC04E;
 border: none;
 padding: 16px 32px;
@@ -758,6 +786,7 @@ transform: translate(-20px,0px);
   max-width: 1240px;
   margin: 0 auto ;
   padding:0px 12px ;
+  border-bottom: 1px solid var(--Gray-200, #EAECF0);
 }
 
 .footer-logo {
@@ -770,9 +799,7 @@ line-height: 40px; /* 62.5% */
 margin-bottom: 32px;
 }
 
-.footer-left {
-  
-}
+
 
 .footer-description {
   color: #FFF;
@@ -829,4 +856,26 @@ padding: 7.14px 8px;
   display: flex;
   flex-direction: column;
   gap: 3px;
+}
+
+.disclaimer-footer {
+  margin: 32px auto 0px auto;
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.disclaimer {
+  color: var(--grey-10, #E7E7E7);
+font-family: Cabin;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+
+}
+
+.disclaimer-icon {
+  display: flex;
+  gap: 24px;
 }

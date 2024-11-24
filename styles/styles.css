@@ -1,90 +1,69 @@
+/* global variables */
+:root {
+  --font-weight-regular: 400;
+  --font-size-default: 16px;
+  --font-family-default: 'Cabin', sans-serif;
+}
+.body {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-default);
+  font-family: var(--font-family-default);
+}
 .satisfy-regular {
   font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
 }
 .lora-font {
   font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
-
 a {
   text-decoration: none;
   color: #000;
 }
-
 .vector-cotainer {
   max-width: 1240px;
   margin: 0px auto;
 }
-
 .cabin-title {
   font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   font-variation-settings: "wdth" 100;
 }
 .playfair-display {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
-
 .jomhuria-regular {
   font-family: "Jomhuria", serif;
-  font-weight: 400;
-  font-style: normal;
 }
-
-.body {
-  max-width: 1440px;
-}
-
 * {
   margin: 0px;
   border: none;
 }
-
 .container {
   padding: 16px 0px;
   display: flex;
   align-items: center;
   background: #fdfbf7;
-  
 }
-
 .logo {
   color: #000;
   font-size: 64px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 40px;
 }
-
 .nav-center {
   display: flex;
   gap: 40px;
   align-items: center;
   padding-left: 120px;
 }
-
 .nav-center > p {
   color: #000;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
-
 .nav-first {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
 }
 
 .nav-button {
@@ -112,8 +91,6 @@ a {
   color: #000;
   text-align: center;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
 }
 
 .nav-title {
@@ -125,15 +102,11 @@ a {
 .nav-title > p {
   color: #000;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .nav-title > p > span {
   color: #000;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-decoration-line: underline;
@@ -142,7 +115,7 @@ a {
 /* hero section */
 
 .hero-section {
- background: #fdfbf7; 
+  background: #fdfbf7;
 }
 
 .hero {
@@ -151,7 +124,6 @@ a {
 .hero > h1 {
   color: #010101;
   font-size: 80px;
-  font-style: normal;
   font-weight: 700;
   line-height: 92px;
   gap: 20px;
@@ -176,9 +148,6 @@ a {
 .hero-div-title {
   color: #4bb924;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   padding-top: 10px;
   padding-bottom: 40px;
 }
@@ -186,8 +155,6 @@ a {
 .hero-div-description {
   color: #404040;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 36px;
   padding-bottom: 40px;
 }
@@ -195,10 +162,7 @@ a {
 .hero-button {
   color: #000;
   text-align: center;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   padding: 14px 28px;
   border-radius: 32px;
@@ -209,10 +173,7 @@ a {
 .hero-button-two {
   color: #fa902b;
   text-align: center;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   border-radius: 32px;
   border: 1px solid #fa902b;
@@ -239,21 +200,15 @@ a {
   width: 50%;
 }
 
-
 .hero-last-text {
   color: #010101;
   font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 129.28%;
 }
 
 .hero-last-review {
   color: #404040;
-  font-family: Cabin;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   width: 120px;
 }
@@ -267,8 +222,6 @@ a {
 .hero-last-div-two > p {
   color: #404040;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   margin-left: 12px;
 }
@@ -295,7 +248,6 @@ a {
   color: #000;
   font-family: "Playfair Display", serif;
   font-size: 50px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px;
   padding: 16px 0px 64px 0px;
@@ -309,7 +261,6 @@ a {
   color: #000;
   font-family: "Playfair Display";
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   line-height: 46px;
   padding: 24px 0px 16px 0px;
@@ -317,20 +268,14 @@ a {
 
 .best-food-description {
   color: #6c6c6c;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px;
 }
 
 .about-us {
   color: #000;
   text-align: center;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   padding: 14px 28px;
   background: #fbc04e;
@@ -355,7 +300,6 @@ a {
   text-align: center;
   font-family: "Playfair Display";
   font-size: 50px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px;
 }
@@ -383,6 +327,7 @@ a {
   background-size: cover;
   border-radius: 10px;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* .gradiant {
@@ -406,7 +351,6 @@ a {
   text-align: center;
   font-family: "Playfair Display";
   font-size: 40px;
-  font-style: normal;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: -0.4px;
@@ -428,10 +372,7 @@ a {
   background: #fa902b;
   color: #000;
   text-align: center;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 20px;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -477,25 +418,19 @@ a {
   color: #000;
   font-family: "Playfair Display";
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   line-height: 46px;
 }
 
 .menu-description {
   color: #6c6c6c;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px;
 }
 
 .menu-price-number {
   color: #000;
-  font-family: Cabin;
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   line-height: 46px;
 }
@@ -516,17 +451,13 @@ a {
   padding: 84px 0px;
 }
 
-
-
 .reservation-title {
   color: #fff;
   font-family: "Playfair Display";
   font-size: 50px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 120% */
   padding-bottom: 80px;
-
 }
 
 .reservation-input-container {
@@ -541,7 +472,6 @@ a {
   border-radius: 4px;
   border: 1px solid #616161;
   background: rgba(123, 123, 123, 0.5);
-
   position: relative;
 }
 
@@ -550,9 +480,7 @@ a {
   padding: 18px 16px;
   background: none;
   color: #fff;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
 }
@@ -576,10 +504,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .submit-button {
   padding: 20px 48px;
   color: #000;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   border-radius: 48px;
   background: #fbc04e;
@@ -621,7 +546,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #000;
   font-family: "Playfair Display";
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 24px;
@@ -629,27 +553,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .cotact-time-number {
   color: #727272;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   margin-left: 16px;
 }
 
 .contact-time-two {
   color: #0b0a0b;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
 .contact-time {
   color: #0b0a0b;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 14px;
@@ -662,10 +579,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .location-text {
   color: #727272;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 32px;
 }
 
@@ -686,7 +600,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #000;
   font-family: "Playfair Display";
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 32px;
@@ -698,10 +611,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .newsletter-description {
   color: #6c6c6c;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 28px;
   margin-bottom: 40px;
 }
@@ -715,10 +625,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .newsletter-input::placeholder {
   color: #c6c6c6;
-  font-family: Cabin;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 20px;
 }
 
@@ -726,10 +633,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-radius: 32px;
   color: #000;
   text-align: center;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 20px;
   background: #fbc04e;
   border: none;
@@ -767,25 +671,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0px 12px;
-  
 }
 
 .footer-logo {
-  color: #FFF;
-font-family: Jomhuria;
-font-size: 64px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px; /* 62.5% */
+  color: #fff;
+  font-family: Jomhuria;
+  font-size: 64px;
+  line-height: 40px; /* 62.5% */
   margin-bottom: 32px;
 }
 
 .footer-description {
   color: #fff;
-  font-family: Cabin;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 28px; /* 155.556% */
   margin-bottom: 32px;
 }
@@ -799,18 +697,14 @@ line-height: 40px; /* 62.5% */
 
 .footer-bottom > p {
   color: var(--grey-5, #f3f3f3);
-  font-family: Cabin;
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
 
 .get-app {
   color: #fbc04e;
-  font-family: Cabin;
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 150% */
   margin-bottom: 16px;
@@ -848,10 +742,7 @@ line-height: 40px; /* 62.5% */
 }
 .disclaimer {
   color: var(--grey-10, #e7e7e7);
-  font-family: Cabin;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
 }
 
@@ -873,13 +764,13 @@ line-height: 40px; /* 62.5% */
   display: none;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 600px) {
   body {
     margin: 0px;
     padding: 0px;
   }
   .vector-cotainer {
-    max-width: 344px;
+    max-width: 95%;
     margin: 0px auto;
   }
   .nav-center {
@@ -895,18 +786,13 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: Jomhuria;
     font-size: 33.185px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 20.741px;
   }
   .reserve-button {
     padding: 6px 12px;
     color: #000;
     text-align: center;
-    font-family: Cabin;
     font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 12.005px;
   }
   .nav-right {
@@ -935,19 +821,12 @@ line-height: 40px; /* 62.5% */
   .nav-title > p {
     color: #000;
     text-align: center;
-    font-family: Cabin;
     font-size: 8px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
   }
   .nav-title > p > span {
     color: #000;
-    font-family: Cabin;
     font-size: 8px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-decoration-line: underline;
   }
   .hero {
@@ -958,7 +837,6 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: "Playfair Display";
     font-size: 32px;
-    font-style: normal;
     font-weight: 800;
     line-height: normal;
     margin-bottom: 13.23px;
@@ -980,11 +858,7 @@ line-height: 40px; /* 62.5% */
   }
   .hero-div-description {
     color: #000;
-    font-family: Cabin;
     font-size: 11.029px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding-bottom: 22.6px;
   }
   .hero-div > div {
@@ -997,20 +871,14 @@ line-height: 40px; /* 62.5% */
     padding: 11px 26.5px;
     color: #000;
     text-align: center;
-    font-family: Cabin;
     font-size: 15.441px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 26.469px; /* 171.429% */
   }
   .hero-button-two {
     padding: 11px 26.5px;
     color: #ff8f2c;
     text-align: center;
-    font-family: Cabin;
     font-size: 15.441px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 26.469px; /* 171.429% */
   }
   .hero-last {
@@ -1029,8 +897,6 @@ line-height: 40px; /* 62.5% */
     color: #010101;
     font-family: Lora;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 129.28%; /* 36.198px */
   }
   .hero-last-div-two {
@@ -1039,20 +905,12 @@ line-height: 40px; /* 62.5% */
   }
   .hero-last-review {
     color: #404040;
-    font-family: Cabin;
     font-size: 13.235px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
   }
 
   .hero-last-div-two > p {
     color: #404040;
-    font-family: Cabin;
     font-size: 13.235px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     width: 200px;
   }
   .hero-last-div-two > p > span {
@@ -1090,7 +948,6 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: "Playfair Display";
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding: 17px 0px 20px 0px;
@@ -1103,7 +960,6 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: "Playfair Display";
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 27.424px; /* 171.403% */
     padding: 14px 0px 14px 0px;
@@ -1111,20 +967,14 @@ line-height: 40px; /* 62.5% */
   }
   .best-food-description {
     color: #6c6c6c;
-    font-family: Cabin;
     font-size: 10.731px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 17.886px; /* 166.667% */
   }
   .about-us {
     padding: 8.347px 16.693px;
     color: #000;
     text-align: center;
-    font-family: Cabin;
     font-size: 10.731px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 14.308px; /* 133.333% */
     border-radius: 19.078px;
     margin-top: -20px;
@@ -1142,11 +992,10 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: "Playfair Display";
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
-  
+
   .daily-offer-image-div {
     border-radius: 5px;
     margin: 1.5rem 0px;
@@ -1177,26 +1026,19 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: "Playfair Display";
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 46px; /* 287.5% */
   }
   .menu-price-number {
     color: #000;
     text-align: center;
-    font-family: Cabin;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 46px; /* 287.5% */
   }
   .menu-description {
     color: #6c6c6c;
-    font-family: Cabin;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
   }
   .menu-section > div > img {
     width: 88px;
@@ -1209,7 +1051,6 @@ line-height: 40px; /* 62.5% */
     color: #fff;
     font-family: "Playfair Display";
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: center;
@@ -1244,7 +1085,6 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: "Playfair Display";
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 8px;
@@ -1265,7 +1105,6 @@ line-height: 40px; /* 62.5% */
   .newsletter {
     display: flex;
     flex-direction: column;
-    max-width: 344px;
     padding: 40px 16px;
     background-color: #fcf9f2;
     gap: 26.5px;
@@ -1279,20 +1118,15 @@ line-height: 40px; /* 62.5% */
     color: #000;
     font-family: "Playfair Display";
     font-size: 22px;
-    font-style: normal;
     font-weight: 700;
     line-height: 27.847px; /* 126.575% */
     margin-bottom: 15px;
   }
   .newsletter-title-responsive {
     display: block;
-    color: #4BB924;
-font-family: Satisfy;
-font-size: 11.139px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
+    color: #4bb924;
+    font-family: Satisfy;
+    font-size: 11.139px;
   }
   .img-border {
     border: none;
@@ -1307,10 +1141,7 @@ line-height: normal;
   }
   .newsletter-description {
     color: #6c6c6c;
-    font-family: Cabin;
     font-size: 8.354px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 12.995px; /* 155.556% */
     margin-bottom: 18px;
   }
@@ -1319,11 +1150,8 @@ line-height: normal;
   }
   .newsletter-input::placeholder {
     color: #c6c6c6;
-    font-style: normal;
-    font-weight: 400;
     font-size: 8.498px;
     line-height: 9.282px;
-
   }
   .newsletter-button {
     display: flex;
@@ -1334,10 +1162,7 @@ line-height: normal;
     gap: 3.713px;
     color: #000;
     text-align: center;
-    font-family: Cabin;
     font-size: 8.354px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 9.282px; /* 111.111% */
   }
   .footer {
@@ -1356,13 +1181,11 @@ line-height: normal;
     margin-bottom: 32px;
   }
   .footer-logo {
-    color: #FFF;
-font-family: Jomhuria;
-font-size: 64.865px;
-font-style: normal;
-font-weight: 400;
-line-height: 40.541px; /* 62.5% */
-text-align: center;
+    color: #fff;
+    font-family: Jomhuria;
+    font-size: 64.865px;
+    line-height: 40.541px; /* 62.5% */
+    text-align: center;
   }
   .logo-container-footer {
     display: flex;
@@ -1379,16 +1202,15 @@ text-align: center;
   .get-app {
     padding-right: 55px;
   }
-  .disclaimer-footer{
+  .disclaimer-footer {
     flex-direction: column;
     gap: 32px;
     margin-top: 32px;
-
     padding: 0px;
     padding-top: 32px;
   }
 }
-@media only screen and (min-width : 426px  ) and (max-width: 1023px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) {
   body {
     max-width: 1024px;
   }
@@ -1403,12 +1225,12 @@ text-align: center;
     width: 100%;
     height: 100%;
   }
-  .nav-right{
+  .nav-right {
     gap: 12px;
   }
   .hero-last-div-two > p > span {
     display: block;
-}
+  }
   .hero-last-div {
     width: inherit;
     margin-right: 0px;
@@ -1416,7 +1238,7 @@ text-align: center;
   .hero-div {
     flex-direction: column;
   }
-  .hero-div >div {
+  .hero-div > div {
     width: 100%;
   }
   .best-food-section {
@@ -1424,7 +1246,7 @@ text-align: center;
   }
   .best-food-section > div {
     width: 100%;
-}
+  }
   .contact-img {
     width: 100%;
     height: 100%;
@@ -1435,57 +1257,56 @@ text-align: center;
   .best-food-img {
     width: 100%;
   }
-  .img-border >img {
+  .img-border > img {
     width: 100%;
   }
-  .img-border{
+  .img-border {
     width: 100%;
   }
-  .hero >h1 {
+  .hero > h1 {
     font-size: 64px;
   }
   .menu-title {
     font-size: 24px;
   }
-  .menu-section >div >img {
+  .menu-section > div > img {
     width: 100%;
   }
-  .daily-offer-image-div >div >h2 {
+  .daily-offer-image-div > div > h2 {
     padding: 224px 429px 0px 9px;
   }
   .daily-offer-div {
     display: block;
-    
   }
-  .daily-offer-image-container{
+  .daily-offer-image-container {
     background-size: cover;
   }
   .daily-offer-image-container > svg {
     position: absolute;
     bottom: 2%;
     left: 23%;
+  }
+  .reservation-input-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  .contact-info {
+    display: flex;
+    padding: 0px 16px;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    flex-direction: column;
+    gap: 16px;
+    /* width: fit-content; */
+  }
+  .newsletter {
+    flex-direction: column;
+  }
 }
-.reservation-input-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-  max-width: 1240px;
-  margin: 0 auto;
-}
-.contact-info {
-  display: flex;
-  padding: 0px 16px;
-  justify-content: space-between;
-  margin-bottom: 64px;
-  flex-direction: column;
-  gap: 16px;
-  /* width: fit-content; */
-}
-.newsletter {
-  flex-direction: column;
-}
-}
-@media only screen and (min-width : 769px  ) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   body {
     max-width: 1024px;
   }
@@ -1500,7 +1321,7 @@ text-align: center;
     width: 100%;
     height: 100%;
   }
-  .hero-div >div {
+  .hero-div > div {
     width: 50%;
   }
   .contact-img {
@@ -1510,29 +1331,29 @@ text-align: center;
   .best-food-section {
     gap: 64px;
   }
-  .best-food-section >div {
+  .best-food-section > div {
     width: 50%;
   }
   .best-food-img {
     width: 100%;
   }
-  .img-border >img {
+  .img-border > img {
     width: 100%;
   }
   .img-border {
     width: 100%;
     height: 100%;
-}
-  .hero >h1 {
+  }
+  .hero > h1 {
     font-size: 64px;
   }
   .menu-title {
     font-size: 24px;
   }
-  .menu-section >div >img {
+  .menu-section > div > img {
     width: 100%;
   }
-  .daily-offer-image-div >div >h2 {
+  .daily-offer-image-div > div > h2 {
     padding: 224px 153px 0px 9px;
   }
   .contact-info {
@@ -1540,8 +1361,13 @@ text-align: center;
     padding: 0px 0px;
     justify-content: space-between;
     margin-bottom: 64px;
+  }
+  .daily-offer-image-container {
+    background-size: cover;
+  }
 }
-.daily-offer-image-container {
-  background-size: cover;
-}
-}
+/* *,
+::after,
+::before {
+  border: 1px solid red;
+} */

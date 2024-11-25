@@ -7,8 +7,7 @@
 li {
   list-style: none;
 }
-.body {
-  max-width: 1440px;
+body {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-default);
   font-family: var(--font-family-default);
@@ -24,6 +23,9 @@ li {
 }
 .justify-center {
   justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
 }
 .text-center {
   text-align: center;
@@ -52,6 +54,9 @@ li {
 a {
   text-decoration: none;
   color: #000;
+}
+.text-lg{
+  font-size: 18px;
 }
 .vector-cotainer {
   max-width: 1240px;
@@ -83,7 +88,6 @@ a {
   gap: 40px;
   align-items: center;
   padding-left: 120px;
-  font-size: 18px;
 }
 .nav-first {
   justify-content: space-between;
@@ -93,7 +97,6 @@ a {
 .nav-button {
   border-radius: 9999px;
   background: #000;
-  gap: 4px;
   padding: 15px 14px;
 }
 
@@ -161,7 +164,6 @@ a {
 }
 
 .hero-button {
-  font-size: 18px;
   line-height: 24px;
   padding: 14px 28px;
   border-radius: 32px;
@@ -170,8 +172,6 @@ a {
 
 .hero-button-two {
   color: #fa902b;
-  text-align: center;
-  font-size: 18px;
   line-height: 24px;
   border-radius: 32px;
   border: 1px solid #fa902b;
@@ -217,25 +217,13 @@ a {
 
 .best-food {
   padding: 124px 0px 80px 0px;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  flex-direction: column;
   gap: 40px;
-  margin: 0px auto;
-  max-width: 1240px;
 }
-
 .best-food-section {
-  display: flex;
   gap: 111px;
 }
-
 .best-food-title {
-  color: #000;
-  font-family: "Playfair Display", serif;
   font-size: 50px;
-  font-weight: 700;
   line-height: 60px;
   padding: 16px 0px 64px 0px;
 }
@@ -245,27 +233,20 @@ a {
 }
 
 .best-food-secondary-title {
-  color: #000;
-  font-family: "Playfair Display";
   font-size: 32px;
-  font-weight: 700;
   line-height: 46px;
   padding: 24px 0px 16px 0px;
 }
 
 .best-food-description {
   color: #6c6c6c;
-  font-size: 18px;
   line-height: 30px;
 }
 
 .about-us {
   color: #000;
-  text-align: center;
-  font-size: 18px;
   line-height: 24px;
   padding: 14px 28px;
-  background: #fbc04e;
   border: none;
   border-radius: 32px;
 }
@@ -277,17 +258,7 @@ a {
 }
 
 .daily-offer-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.daily-offer-title > p {
-  color: #000;
-  text-align: center;
-  font-family: "Playfair Display";
   font-size: 50px;
-  font-weight: 700;
   line-height: 60px;
 }
 
@@ -297,9 +268,7 @@ a {
 }
 
 .daily-offer-div {
-  display: flex;
   margin-top: 4rem;
-  align-items: center;
   gap: 32px;
 }
 
@@ -317,26 +286,16 @@ a {
   overflow-x: hidden;
 }
 
-/* .gradiant {
-  background: linear-gradient(0deg, #111114 -4.2%, rgba(17, 17, 20, 0) 99.66%);
-  padding-bottom: 0.1px;
-} */
-
 .daily-offer-image-div {
   border-radius: 5px;
   margin: 1.5rem;
   border: 7px solid transparent;
   border-image: linear-gradient(180deg, #ffde9f -20%, transparent 100%) 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   gap: auto;
 }
 
-.daily-offer-image-div > div > h2 {
+.daily-offer-first-title {
   color: #ffbf5e;
-  text-align: center;
-  font-family: "Playfair Display";
   font-size: 40px;
   font-weight: 900;
   line-height: 60px;
@@ -344,7 +303,7 @@ a {
   padding: 229px 201px 0px 9px;
 }
 
-.daily-offer-image-div > div > h3 {
+.daily-offer-second-title{
   color: #fff;
   font-family: Poppins;
   font-size: 3.5rem;
@@ -356,10 +315,6 @@ a {
 
 .reservation-button {
   border-radius: 32px;
-  background: #fa902b;
-  color: #000;
-  text-align: center;
-  font-size: 18px;
   line-height: 20px;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -368,7 +323,7 @@ a {
   margin-bottom: 9px;
 }
 
-.daily-offer-image-container > svg {
+.daily-offer-svg {
   position: absolute;
   bottom: 5%;
   left: 37%;
@@ -377,52 +332,27 @@ a {
 /* menu */
 
 .menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   gap: 32px;
   flex-grow: 1;
 }
-
 .menu-section {
-  display: flex;
   gap: 24px;
 }
-
 .menu-price {
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
   gap: 24px;
 }
-
-.menu-left {
-  display: flex;
-  justify-content: space-between;
-}
-
 .menu-title {
-  color: #000;
-  font-family: "Playfair Display";
   font-size: 32px;
-  font-weight: 700;
   line-height: 46px;
 }
-
 .menu-description {
   color: #6c6c6c;
   font-size: 18px;
   line-height: 30px;
 }
 
-.menu-price-number {
-  color: #000;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 46px;
-}
-
-.menu-section > div > img {
+.menu-section-img {
   border-radius: 10px;
 }
 
@@ -451,15 +381,12 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  max-width: 1240px;
-  margin: 0 auto;
 }
 
 .input-div {
   border-radius: 4px;
   border: 1px solid #616161;
   background: rgba(123, 123, 123, 0.5);
-
   position: relative;
 }
 
@@ -473,7 +400,7 @@ a {
   line-height: 24px;
 }
 
-.input-div > svg {
+.input-div-icons{
   position: absolute;
   bottom: 30%;
   right: 5%;
@@ -491,19 +418,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .submit-button {
   padding: 20px 48px;
-  color: #000;
-  font-size: 18px;
   line-height: 24px;
   border-radius: 48px;
-  background: #fbc04e;
   margin-top: 48px;
   border: none;
-}
-
-.submit-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* contact */
@@ -513,14 +431,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .contact-info {
-  display: flex;
   padding: 0px 32px;
-  justify-content: space-between;
   margin-bottom: 64px;
 }
 
 .contact-info-section {
-  display: flex;
   gap: 24px;
 }
 
@@ -531,11 +446,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .contact-title {
-  color: #000;
-  font-family: "Playfair Display";
   font-size: 32px;
-  font-weight: 700;
-  line-height: normal;
   margin-bottom: 24px;
 }
 
@@ -570,25 +481,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 18px;
   line-height: 32px;
 }
-
-.contact-svg > svg {
+.contact-svg-img {
   padding: 4px;
 }
-
+.contact-img{
+  border-radius: 10px;
+}
 /* newsletter css */
-
 .newsletter {
-  display: flex;
   gap: 57px;
   margin-bottom: 0px;
   margin-bottom: 80px;
 }
 
 .newsletter-title {
-  color: #000;
-  font-family: "Playfair Display";
   font-size: 48px;
-  font-weight: 700;
   line-height: 60px;
   margin-bottom: 32px;
 }
@@ -619,18 +526,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .newsletter-button {
   border-radius: 32px;
-  color: #000;
-  text-align: center;
-  font-size: 18px;
   line-height: 20px;
-  background: #fbc04e;
   border: none;
   padding: 16px 32px;
 }
 
 .newsletter-input-section {
-  display: flex;
-  align-items: center;
   gap: 12px;
 }
 
@@ -640,7 +541,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   transform: translate(-20px, 0px);
 }
 
-.img-border > img {
+.img-border-img {
   border-radius: 10px;
   transform: translate(20px, -20px);
 }
@@ -654,11 +555,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0px 12px;
+ max-width: 1216px;
 }
 
 .footer-logo {
@@ -681,14 +578,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   justify-content: space-between;
   gap: 32px;
   margin-bottom: 64px;
-}
-
-.footer-bottom > p {
   color: var(--grey-5, #f3f3f3);
-  font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+  padding-inline-start: 0px;
 }
+
 
 .get-app {
   color: #fbc04e;
@@ -714,18 +609,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .svg-flex {
-  display: flex;
-  flex-direction: column;
   gap: 3px;
 }
 
 .disclaimer-footer {
   margin: 0px auto 0px auto;
-  padding: 32px;
-  max-width: 1240px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 32px 0px;
+  max-width: 1216px;
   border-top: 1px solid var(--Gray-200, #eaecf0);
 }
 .disclaimer {
@@ -1355,8 +1245,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-size: cover;
   }
 }
-/* *,
+*,
 ::after,
 ::before {
   border: 1px solid red;
-} */
+}

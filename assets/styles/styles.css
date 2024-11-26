@@ -566,7 +566,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .footer-description {
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 28px; /* 155.556% */
   margin-bottom: 32px;
 }
@@ -726,13 +726,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
   .hero-button {
     padding: 11px 26.5px;
-    font-size: 15.441px;
+    font-size: 15px;
     line-height: 26.469px; /* 171.429% */
   }
   .hero-button-two {
     padding: 11px 26.5px;
     color: #ff8f2c;
-    font-size: 15.441px;
+    font-size: 15px;
     line-height: 26.469px; /* 171.429% */
   }
   .hero-last {
@@ -865,7 +865,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     left: 57%;
   }
   .menu-title {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 46px; /* 287.5% */
   }
   .menu-description {
@@ -1027,6 +1027,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-top: 32px;
     padding: 0px;
     padding-top: 32px;
+  }
+  .contact-time{
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 767px) {
@@ -1340,8 +1343,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   margin-bottom: 32px;
 }
 }
-*,
+/* *,
 ::after,
 ::before {
   border: 1px solid red;
-}
+} */

@@ -706,7 +706,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .newsletter-title-responsive {
   display: none;
 }
-
+.cover-span{
+  display: block;
+}
 @media only screen and (max-width: 600px) {
   body {
     margin: 0px;
@@ -751,6 +753,31 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 9px 6.76px 7.8px 7.63px;
     display: flex;
   }
+  .cover-span {
+    display: contents;
+}
+  .cover-title {
+    font-size: 32px;
+    line-height: normal;
+}
+.cover-section{
+  padding: 80px 0px 154px 0px
+}
+.cover-text {
+  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cover-dsc{
+  line-height: normal;
+  font-size: 12px;
+}
+.cover-center{
+  gap: 12px;
+}
+.cover-bottom{
+  gap: 24px;
+}
   .hero {
     background: #fdfbf7;
     padding: 44px 16px 44px 16px;
@@ -1102,8 +1129,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 @media only screen and (min-width: 601px) and (max-width: 767px) {
   .vector-cotainer {
-    max-width: 736px;
+    max-width: 95%;
     margin: 0px auto;
+  }
+  .cover-section{
+    padding: 70px 0px 154px 0px;
   }
   .image-container {
     width: 100%;
@@ -1169,8 +1199,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 224px 429px 0px 9px;
   }
   .daily-offer-div {
-    display: block;
-  }
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: normal;
+}
   .daily-offer-image-container {
     background-size: cover;
   }
@@ -1223,6 +1256,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .nav-center{
     padding-left: 0px ;
   }
+  .cover-section{
+    padding: 70px 0px 154px 0px;
+  }
   .hero-pizza{
     display: none;
   }
@@ -1272,8 +1308,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 224px 429px 0px 9px;
   }
   .daily-offer-div {
-    display: block;
-  }
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: normal;
+}
   .daily-offer-image-container {
     background-size: cover;
   }
@@ -1321,6 +1360,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
   .hero-last {
     padding: 20px 0px;
+}
+.cover-section{
+  padding: 166px 0px 154px 0px;
 }
   .nav-right {
     gap: 12px;

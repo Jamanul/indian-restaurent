@@ -4,8 +4,12 @@
   --font-size-default: 16px;
   --font-family-default: "Cabin", sans-serif;
 }
+button{
+  cursor: pointer;
+}
 li {
   list-style: none;
+  cursor: pointer;
 }
 body {
   font-weight: var(--font-weight-regular);
@@ -118,7 +122,39 @@ a {
   font-weight: 500;
   text-decoration-line: underline;
 }
-
+/* cover section */
+.cover-section{
+  background: linear-gradient(88deg, rgba(0, 0, 0, 0.66) 16.03%, rgba(0, 0, 0, 0.51) 41.34%, rgba(0, 0, 0, 0.00) 56.85%),url("../images/cover-photo.png") lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  width: 100%;
+  padding:154px 0px;
+}
+.cover-text{
+  color: #FBC04E;
+  gap: 24px;
+  margin-bottom: 6px;
+}
+.cover-title{
+  color: #FFF;
+font-size: 56px;
+font-weight: 900;
+line-height: 66px; /* 117.857% */
+}
+.cover-center{
+  gap: 24px;
+}
+.cover-dsc{
+  color: #FFF;
+  line-height: 26px;
+}
+.cover-bottom{
+  gap: 48px;
+}
+.cover-svg{
+  
+}
 /* hero section */
 
 .hero-section {

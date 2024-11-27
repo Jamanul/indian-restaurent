@@ -132,7 +132,12 @@ a {
   align-items: center;
   margin-top: 40px;
 }
-
+.footer {
+  margin-top: 0px;
+}
+.newsletter{
+  margin-bottom:0px ;
+}
 @media only screen and (max-width: 600px) {
   .card-container {
     grid-template-columns: repeat(1, 1fr);

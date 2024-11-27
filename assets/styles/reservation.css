@@ -190,7 +190,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   align-items: center;
 }
 
-
+.footer {
+  margin-top: 0px;
+}
+.newsletter{
+  margin-bottom:0px ;
+}
 @media only screen and (max-width: 767px){
   .reservation-input-container {
     grid-template-columns: repeat(1, 1fr);

@@ -220,6 +220,12 @@ img {
   line-height: 24px; /* 133.333% */
   margin-top: 40px;
 }
+.footer {
+  margin-top: 0px;
+}
+.newsletter{
+  margin-bottom:0px ;
+}
 @media only screen and (max-width: 767px) {
   .contact-information-div {
     margin: 0px auto;

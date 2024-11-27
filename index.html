@@ -96,8 +96,8 @@
       </div>
     </header>
     <!-- cover section -->
-     <section class="cover-section relative">
-      <div class="vector-cotainer">
+     <section class="cover-section">
+      <div class="vector-cotainer relative">
           <div class="flex items-center cover-text"> 
             <p class="text-lg playfair-display">A Indian Cuisine Restaurant</p>
           <img src="./assets/icons/yellow-svg.svg" alt="line">
@@ -107,13 +107,14 @@
             <h1 class="cover-title playfair-display">Healthy And Fresh <span class="block-span">Food In One Place</span></h1>
             <p class="text-lg cover-dsc">In publishing and graphic design, Lorem ipsum is a placeholder <span class="block-span">text commonly used to demonstrate the visual form of a document.</span></p>
           </div>
-          <div>
+          <div class="flex items-center button-container">
             <button class="hero-button text-lg primary-bg text-center">See Menu</button>
-            <button class="hero-button text-lg primary-bg text-center">Search</button>
+            <button  class="flex btn search-button text-lg primary-bg text-center"><img class="relative z-100" src="./assets/icons/Search.svg" alt="search"><span class="relative z-100"> Search</span> </button>
           </div>
         </div>
+        <img src="./assets/icons/white-mouse.svg" alt="mouse" class="absolute cover-svg">
       </div>
-      <img src="./assets/icons/white-mouse.svg" alt="mouse" class="absolute cover-svg">
+      
      </section>
     <!-- hero section -->
     <section class="hero-section ">
@@ -440,6 +441,16 @@
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script >
+const btn = document.querySelector('.search-button'); // Match the correct class name
+
+btn.addEventListener('mousemove', function(e) {
+  const rect = btn.getBoundingClientRect();
+  const x = e.clientX - rect.left; 
+  const y = e.clientY - rect.top;  
+  btn.style.setProperty('--x', x + 'px');
+  btn.style.setProperty('--y', y + 'px');
+});
+      </script>
   </body>
 </html>

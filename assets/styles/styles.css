@@ -763,6 +763,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .cover-section{
   padding: 80px 0px 154px 0px
 }
+.cover-svg {
+  bottom: -40%;
+}
 .cover-text {
   gap: 8px;
   flex-direction: column;
